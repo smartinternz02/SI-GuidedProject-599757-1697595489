@@ -1,0 +1,575 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    
+    height: 500px;
+    margin: auto;
+    margin-top: 75px;
+    box-shadow: 0 0 3px grey;
+    overflow: hidden;
+    position: relative;
+    border: 6px solid ;
+}
+
+.image-container {
+    width: 100%; /* Set the width of the container */
+    height: 100%; /* Set the height of the container */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/* Style for each image inside the container */
+.slide {
+    width: 100%; /* Set the width for all images */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+}
+
+.nav button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    
+    color: white; /* Text color */
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#next{
+    position: relative;
+    top:50px;
+    position: relative;
+    /* right: -237px; */
+    top: -266px;
+    left: 1470px;
+    opacity: 0.5;
+    color: black;
+}
+#back{
+    top:50px;
+    position: relative;
+    /* right: -237px; */
+    top: -266px;
+    left: -27px;
+    opacity: 0.5;
+    color: black;
+}
+.box{
+    display: inline;
+    padding: 3px;
+    margin: 3px;
+
+
+ 
+
+}
+.navbar1{
+    background: none;
+    border: none;
+    padding: 10px;
+    color: white  ;
+}
+.bor{
+    position: relative;
+    border: 3px solid;
+    top: -578px;
+    width: 900px;
+    left: 165px;
+    background-color: black;
+
+}
+#home{
+    color: #030dff;
+}
+.box:hover{
+    background-color: rgb(195 80 2);
+    color: black;
+}
+#sitename{
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -654px;
+    left: -2px;
+}
+.date{
+    position: relative;
+    font-size: 20px;
+    top: -680px;
+    left: 1114px;
+}
+.week{
+    position: relative;
+    top: -680px;
+    left: 1114px;
+
+}
+.clock{
+    position: relative;
+    top: -741px;
+    left: 1079px;
+    height: 30px;
+}
+.call{
+    position: relative;
+  
+    top: -741px;
+    left: 1291px;
+    height: 30px;
+}
+.callus{
+    position: relative;
+    font-size: 20px;
+    top: -723px;
+    left: 1357px;
+}
+.num{
+    position: relative;
+    top: -752px;
+    left: 1360px;
+}
+
+.we{
+    position: relative;
+    top: -500px;
+    left: 610px;
+}
+body {
+    background-color: rgb(57, 138, 230);
+    margin: 0; /* Remove default margin to match the screen width */
+    padding: 0; /* Reset padding */
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+#we{
+    color: white;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -175px;
+    
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    
+    height: 500px;
+    margin: auto;
+    margin-top: 75px;
+    box-shadow: 0 0 3px grey;
+    overflow: hidden;
+    position: relative;
+    border: 6px solid ;
+}
+
+.image-container {
+    width: 100%; /* Set the width of the container */
+    height: 100%; /* Set the height of the container */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/* Style for each image inside the container */
+.slide {
+    width: 100%; /* Set the width for all images */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+}
+
+.nav button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    
+    color: white; /* Text color */
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#next{
+    position: relative;
+    top:50px;
+    position: relative;
+    /* right: -237px; */
+    top: -266px;
+    left: 1470px;
+    opacity: 0.5;
+    color: black;
+}
+#back{
+    top:50px;
+    position: relative;
+    /* right: -237px; */
+    top: -266px;
+    left: -27px;
+    opacity: 0.5;
+    color: black;
+}
+.box{
+    display: inline;
+    padding: 3px;
+    margin: 3px;
+
+
+ 
+
+}
+.navbar1{
+    background: none;
+    border: none;
+    padding: 10px;
+    color: white  ;
+}
+.bor{
+    position: relative;
+    border: 3px solid;
+    top: -578px;
+    width: 1079px;
+    left: 0px;
+    background-color: black;
+
+}
+#home{
+    color: #030dff;
+}
+
+#sitename{
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -654px;
+    left: 2px;
+
+
+}
+.date{
+    position: relative;
+    font-size: 20px;
+    top: -680px;
+    left: 1114px;
+}
+.week{
+    position: relative;
+    top: -680px;
+    left: 1114px;
+
+}
+.clock{
+    position: relative;
+    top: -741px;
+    left: 1079px;
+    height: 30px;
+}
+.call{
+    position: relative;
+  
+    top: -741px;
+    left: 1291px;
+    height: 30px;
+}
+.callus{
+    position: relative;
+    font-size: 20px;
+    top: -723px;
+    left: 1357px;
+}
+.num{
+    position: relative;
+    top: -752px;
+    left: 1360px;
+}
+
+.we{
+    position: relative;
+    top: -500px;
+    left: 610px;
+}
+body {
+    background-color: rgb(57, 138, 230);
+    margin: 0; /* Remove default margin to match the screen width */
+    padding: 0; /* Reset padding */
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    overflow-y: hidden;
+}
+#we{
+    color: white;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 606px;
+    top: 114px;
+    
+}
+#for{
+    color: white;
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* top: -151px; */
+    /* left: -224px; */
+    position: relative;
+    left: 414px;
+    top: 144px;
+}
+#forb {
+    border: 4px solid white;
+ 
+    cursor: pointer;
+    top: -77px;
+    cursor: pointer;
+    height: 43px;
+    width: 212px;
+    left: 39px;
+    background-color: transparent;
+    color: white;
+    font-size: 27px;
+    position: relative;
+    left: 376px;
+    width: 331px;
+    top: 100px}
+#forbb{
+
+    background-color: transparent;
+    position: relative;
+    top: 85px;
+    left: 250px;
+}
+.we {
+    position: relative;
+    /* border: 3px solid; */
+    left: 5px;
+    width: 1526px;
+    top: -730px;
+    height: 490px;
+    background-color: black;
+    opacity: 0.5;
+
+}
+/* ... (previous CSS code) */
+
+#next {
+    /* ... (previous styles) */
+    z-index: 1; /* Ensure the button is on top of other elements */
+}
+
+#back {
+    /* ... (previous styles) */
+    z-index: 1; /* Ensure the button is on top of other elements */
+}
+
+/* ... (previous CSS code) */
+
+.we {
+    /* ... (previous styles) */
+    z-index: 0; /* Lower the z-index to make sure buttons are on top */
+}
+.image_icon{
+    height: 50px;
+    position: relative;
+    top: 15px;
+    left: 4px;
+}
+.buttom{
+    display: grid;
+    grid-template-columns:3fr 3fr 3fr ;
+    border: 3px solid;
+    position: relative;
+    top: -732px;
+
+}
+.expert{
+    position: relative;
+    top: -34px;
+    left: 65px;
+    font-size: 24px;
+}
+.worker{
+    position: relative;
+    position: relative;
+    top: -23px;
+    left: 79px;
+    border: 1px;
+    width: 348px;
+}
+#j1{
+    color:  rgb(57, 138, 230);
+    background-color: black;
+}
+#j2{
+    color:  rgb(57, 138, 230);
+    background-color: black;
+}
+/* ... (previous CSS code) */
+
+.navbar1:hover {
+    background-color: rgba(255, 255, 255, 0.929); /* Add a background color on hover */
+    color: black; /* Change text color on hover */
+    transform: scale(0.95); /* Apply a zoom-out effect on hover */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* ... (previous CSS code) */
+#forb:hover{
+    background-color:white;
+    color: black;
+    transform: scale(0.95); /* Apply a zoom-out effect on hover */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+#next:hover{
+    background-color:black;
+    color: white;
+    transform: scale(0.95); /* Apply a zoom-out effect on hover */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+
+}
+#back:hover{
+    background-color:black;
+    color: white;
+    transform: scale(0.95); /* Apply a zoom-out effect on hover */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+/* Add responsive styles */
+@media screen and (max-width: 768px) {
+    main {
+        height: 300px; /* Adjust the height for smaller screens */
+        margin-top: 50px;
+    }
+
+    .image-container {
+        height: auto;
+    }
+
+    .slide {
+        height: 100%;
+    }
+
+    .nav button {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    /* Adjust other styles as needed for smaller screens */
+    #next {
+        left: 70%;
+    }
+
+    #back {
+        left: 10px;
+    }
+
+    .bor {
+        width: 80%;
+        left: 10%;
+    }
+
+    .date,
+    .week,
+    .callus,
+    .num {
+        font-size: 16px;
+    }
+
+    .we {
+        top: -350px;
+    }
+
+    /* Hide certain elements on smaller screens */
+    .buttom {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    main {
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .nav button {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    #next,
+    #back {
+        top: auto;
+        left: auto;
+    }
+
+    .bor {
+        display: block;
+        width: auto;
+        left: auto;
+    }
+
+    .date,
+    .week,
+    .callus,
+    .num {
+        font-size: 16px;
+    }
+
+    .we {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar1 {
+        font-size: 14px;
+    }
+
+    #sitename {
+        font-size: 24px;
+    }
+
+    .date,
+    .week {
+        font-size: 14px;
+    }
+
+    .clock,
+    .call {
+        height: 20px;
+    }
+
+    .callus {
+        font-size: 14px;
+    }
+
+    .num {
+        font-size: 18px;
+    }
+
+    #we {
+        font-size: 20px;
+    }
+
+    #for {
+        font-size: 40px;
+    }
+
+    #forb {
+        font-size: 18px;
+    }
+}
+
+
+
+

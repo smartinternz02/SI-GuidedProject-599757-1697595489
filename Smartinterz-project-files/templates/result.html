@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)file:///C:/Users/Dell/AppData/Local/Microsoft/Windows/INetCache/IE/FLEZOZ6B/result[1].html -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" type="text/css"
+        href="file:///C:/Users/Dell/AppData/Local/Microsoft/Windows/INetCache/IE/FLEZOZ6B/%7B%7B%20url_for(&#39;static&#39;,%20filename=&#39;style.css&#39;)%20%7D%7D">
+    <title>Disease Prediction Result</title>
+    <style>
+        
+        .co {
+            background: url('https://img.freepik.com/free-vector/stylish-blue-medical-background-with-hexagon_1017-19373.jpg?size=626&ext=jpg&ga=GA1.1.1894793064.1698898595&semt=ais') center/cover;
+            font-size: 24px;
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+
+        .box {
+            background: url('https://img.freepik.com/premium-vector/abstract-medical-background-with-hexagons-pattern-concepts-ideas-healthcare-technology-innovation-medicine-health-science-research_120542-537.jpg') center/cover;
+            /* Set the background for the boxes */
+            border: 3px solid white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 1430px;
+        }
+
+        .box1 {
+            background: url('https://img.freepik.com/premium-vector/abstract-medical-background-with-hexagons-pattern-concepts-ideas-healthcare-technology-innovation-medicine-health-science-research_120542-537.jpg') center/cover;
+            /* Set the background for the inner box */
+            border: 3px solid white;
+            width: 1382px;
+            height: 287px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hed {
+            font-size: 20px;
+            font-weight: bold;
+            color: darkcyan;
+        }
+
+        .ans {
+            font-family: 'Arial', sans-serif;
+            font-size: 25px;
+            color: darkblue;
+            margin-top: 10px;
+        }
+
+        .footer__content {
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr 2fr;
+
+         
+            width: 988px;
+            padding: 8px;
+
+        }
+
+        .footer__social-icon {
+
+
+
+            text-decoration: none;
+            border: 3px solid;
+            color: #ffffff;
+            padding: 5px;
+            background-color: black;
+            display: grid;
+            width: 170px;
+            text-align: center;
+            
+
+        }
+        .footer__social-icon:hover{
+            background-color:white;
+    color: black;
+    transform: scale(1.05); /* Apply a zoom-out effect on hover */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+        }
+        .footer__social{
+            position: relative;
+            left :15px;
+            position: relative;
+    left: 1020px;
+    
+    top: -284px;
+
+        }
+       .footer__newsletter{
+        
+        position: relative;
+    left: 1259px;
+    width: 220px;
+    top: -446px;
+       }
+       .footer__newsletter-button{
+        text-decoration: none;
+            border: 3px solid;
+            color: #ffffff;
+            padding: 5px;
+            background-color: black;
+            display: grid;
+            width: 170px;
+            text-align: center;
+       }
+       .footer__newsletter-button:hover{
+        background-color:white;
+    color: black;
+    transform: scale(1.05); /* Apply a zoom-out effect on hover */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+       }
+       .footer__menu-link{
+        text-decoration: none;
+            border: 3px solid;
+            color: #ffffff;
+            padding: 5px;
+            background-color: black;
+            display: grid;
+            width: 170px;
+            text-align: center;
+       }
+       .footer__menu-link:hover{
+        background-color:white;
+    color: black;
+    transform: scale(1.05); /* Apply a zoom-out effect on hover */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+       }
+    </style>
+</head>
+
+<body>
+    <h1 class="co">Disease Prediction Result</h1>
+    <div class="box">
+        <div class="box1">
+            <p class="hed">The predicted disease is: </p>
+            <p class="ans">{{ disease }}</p>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__menu">
+                    <h3 class="footer__menu-title">Content</h3>
+                    <ul class="footer__menu-list">
+                        <li><a href="#" class="footer__menu-link">New equipment</a></li>
+                        <li><a href="#" class="footer__menu-link">Latest technologies</a></li>
+                        <li><a href="#" class="footer__menu-link">Best scans</a></li>
+                        <li><a href="#" class="footer__menu-link">Efficiency in prediction</a></li>
+                        <li><a href="#" class="footer__menu-link">Highly qualified doctors</a></li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <h3 class="footer__menu-title">Information</h3>
+                    <ul class="footer__menu-list">
+                        <li><a href="#" class="footer__menu-link">Pricing</a></li>
+                        <li><a href="#" class="footer__menu-link">About us</a></li>
+                        <li><a href="#" class="footer__menu-link">API</a></li>
+                        <li><a href="#" class="footer__menu-link">Funds</a></li>
+                        <li><a href="#" class="footer__menu-link">Artificial Intelligence</a></li>
+                        <li><a href="#" class="footer__menu-link">Marketing Firms</a></li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <h3 class="footer__menu-title">Legal</h3>
+                    <ul class="footer__menu-list">
+                        <li><a href="#" class="footer__menu-link">Terms and conditions</a></li>
+                        <li><a href="#" class="footer__menu-link">License agreement</a></li>
+                        <li><a href="#" class="footer__menu-link">Privacy policy</a></li>
+                        <li><a href="#" class="footer__menu-link">Copyright information</a></li>
+                        <li><a href="#" class="footer__menu-link">Cookies policy</a></li>
+                        <li><a href="#" class="footer__menu-link" id="link-cookie-settings">Cookies Settings</a></li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <h3 class="footer__menu-title">Support</h3>
+                    <ul class="footer__menu-list">
+                        <li><a href="#" class="footer__menu-link">FAQ</a></li>
+                        <li><a href="#" class="footer__menu-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__social">
+                <h3 class="footer__social-title">Social Media</h3>
+                <div class="footer__social-icons" id="icons">
+                    <a href="#" class="footer__social-icon">Facebook</a>
+                    <a href="#" class="footer__social-icon">Twitter</a>
+                    <a href="#" class="footer__social-icon">Pinterest</a>
+                    <a href="#" class="footer__social-icon">Instagram</a>
+                    <a href="#" class="footer__social-icon">YouTube</a>
+                    
+                </div>
+            </div>
+            <div class="footer__newsletter">
+                <p class="footer__newsletter-text">Get exclusive assets sent straight to your inbox</p>
+                <a href="#" class="footer__newsletter-button">Sign up</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <p class="footer__copyright">
+                    &copy; 2010-2023 Your Company Name. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
